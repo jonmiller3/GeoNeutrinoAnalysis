@@ -7,8 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D0180BD91A36D9F500027448 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D0180BD81A36D9F500027448 /* main.cpp */; };
+		D0180BE71A36DA2500027448 /* EarthModel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D0180BDF1A36DA2500027448 /* EarthModel.cpp */; };
+		D0180BE81A36DA2500027448 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D0180BE11A36DA2500027448 /* main.cpp */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D0180BEE1A36DAAE00027448 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D0180BCD1A36D9F500027448 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D0180BEA1A36DA5B00027448;
+			remoteInfo = StartROOT;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		D0180BD31A36D9F500027448 /* CopyFiles */ = {
@@ -24,7 +35,13 @@
 
 /* Begin PBXFileReference section */
 		D0180BD51A36D9F500027448 /* GeoNuSim */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = GeoNuSim; sourceTree = BUILT_PRODUCTS_DIR; };
-		D0180BD81A36D9F500027448 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		D0180BDF1A36DA2500027448 /* EarthModel.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = EarthModel.cpp; path = ../../EarthModel.cpp; sourceTree = "<group>"; };
+		D0180BE01A36DA2500027448 /* EarthModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EarthModel.h; path = ../../EarthModel.h; sourceTree = "<group>"; };
+		D0180BE11A36DA2500027448 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = ../../main.cpp; sourceTree = "<group>"; };
+		D0180BE21A36DA2500027448 /* ComplexGamma.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ComplexGamma.h; path = ../../ComplexGamma.h; sourceTree = "<group>"; };
+		D0180BE41A36DA2500027448 /* thparameter.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = thparameter.txt; path = ../../thparameter.txt; sourceTree = "<group>"; };
+		D0180BE51A36DA2500027448 /* kparameter.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = kparameter.txt; path = ../../kparameter.txt; sourceTree = "<group>"; };
+		D0180BE61A36DA2500027448 /* urparameter.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = urparameter.txt; path = ../../urparameter.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,12 +74,35 @@
 		D0180BD71A36D9F500027448 /* GeoNuSim */ = {
 			isa = PBXGroup;
 			children = (
-				D0180BD81A36D9F500027448 /* main.cpp */,
+				D0180BDF1A36DA2500027448 /* EarthModel.cpp */,
+				D0180BE01A36DA2500027448 /* EarthModel.h */,
+				D0180BE11A36DA2500027448 /* main.cpp */,
+				D0180BE21A36DA2500027448 /* ComplexGamma.h */,
+				D0180BE41A36DA2500027448 /* thparameter.txt */,
+				D0180BE51A36DA2500027448 /* kparameter.txt */,
+				D0180BE61A36DA2500027448 /* urparameter.txt */,
 			);
 			path = GeoNuSim;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		D0180BEA1A36DA5B00027448 /* StartROOT */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION)";
+			buildConfigurationList = D0180BEB1A36DA5B00027448 /* Build configuration list for PBXLegacyTarget "StartROOT" */;
+			buildPhases = (
+			);
+			buildToolPath = "/Users/usmjonathanmiller/Dropbox/CubeClassifier/env-shell.sh";
+			buildWorkingDirectory = /Users/usmjonathanmiller/Dropbox/Geo_neutrinos;
+			dependencies = (
+			);
+			name = StartROOT;
+			passBuildSettingsInEnvironment = 1;
+			productName = StartROOT;
+		};
+/* End PBXLegacyTarget section */
 
 /* Begin PBXNativeTarget section */
 		D0180BD41A36D9F500027448 /* GeoNuSim */ = {
@@ -76,6 +116,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				D0180BEF1A36DAAE00027448 /* PBXTargetDependency */,
 			);
 			name = GeoNuSim;
 			productName = GeoNuSim;
@@ -94,6 +135,9 @@
 					D0180BD41A36D9F500027448 = {
 						CreatedOnToolsVersion = 6.1.1;
 					};
+					D0180BEA1A36DA5B00027448 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
 				};
 			};
 			buildConfigurationList = D0180BD01A36D9F500027448 /* Build configuration list for PBXProject "GeoNuSim" */;
@@ -109,6 +153,7 @@
 			projectRoot = "";
 			targets = (
 				D0180BD41A36D9F500027448 /* GeoNuSim */,
+				D0180BEA1A36DA5B00027448 /* StartROOT */,
 			);
 		};
 /* End PBXProject section */
@@ -118,11 +163,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D0180BD91A36D9F500027448 /* main.cpp in Sources */,
+				D0180BE81A36DA2500027448 /* main.cpp in Sources */,
+				D0180BE71A36DA2500027448 /* EarthModel.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D0180BEF1A36DAAE00027448 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D0180BEA1A36DA5B00027448 /* StartROOT */;
+			targetProxy = D0180BEE1A36DAAE00027448 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		D0180BDA1A36D9F500027448 /* Debug */ = {
@@ -202,6 +256,34 @@
 		D0180BDD1A36D9F500027448 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"/Users/usmjonathanmiller/IceCube/i3/ports/root-v5.34.04/include/",
+				);
+				LD_RUNPATH_SEARCH_PATHS = "/Users/usmjonathanmiller/IceCube/i3/ports/root-v5.34.04/lib/";
+				LIBRARY_SEARCH_PATHS = "/Users/usmjonathanmiller/IceCube/i3/ports/root-v5.34.04/lib";
+				OTHER_LDFLAGS = (
+					"-lCore",
+					"-lGui",
+					"-lCint",
+					"-lRIO",
+					"-lNet",
+					"-lHist",
+					"-lGraf",
+					"-lGraf3d",
+					"-lGpad",
+					"-lTree",
+					"-lRint",
+					"-lPostscript",
+					"-lMatrix",
+					"-lPhysics",
+					"-lMathCore",
+					"-lThread",
+					"-lpthread",
+					"-lm",
+					"-ldl",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -209,6 +291,59 @@
 		D0180BDE1A36D9F500027448 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"/Users/usmjonathanmiller/IceCube/i3/ports/root-v5.34.04/include/",
+				);
+				LD_RUNPATH_SEARCH_PATHS = "/Users/usmjonathanmiller/IceCube/i3/ports/root-v5.34.04/lib/";
+				LIBRARY_SEARCH_PATHS = "/Users/usmjonathanmiller/IceCube/i3/ports/root-v5.34.04/lib";
+				OTHER_LDFLAGS = (
+					"-lCore",
+					"-lGui",
+					"-lCint",
+					"-lRIO",
+					"-lNet",
+					"-lHist",
+					"-lGraf",
+					"-lGraf3d",
+					"-lGpad",
+					"-lTree",
+					"-lRint",
+					"-lPostscript",
+					"-lMatrix",
+					"-lPhysics",
+					"-lMathCore",
+					"-lThread",
+					"-lpthread",
+					"-lm",
+					"-ldl",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D0180BEC1A36DA5B00027448 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUGGING_SYMBOLS = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D0180BED1A36DA5B00027448 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -230,6 +365,14 @@
 			buildConfigurations = (
 				D0180BDD1A36D9F500027448 /* Debug */,
 				D0180BDE1A36D9F500027448 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D0180BEB1A36DA5B00027448 /* Build configuration list for PBXLegacyTarget "StartROOT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0180BEC1A36DA5B00027448 /* Debug */,
+				D0180BED1A36DA5B00027448 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
