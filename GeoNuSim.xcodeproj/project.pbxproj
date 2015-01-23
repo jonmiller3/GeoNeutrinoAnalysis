@@ -7,19 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1671DAF81A7289D40006067A /* SolarBackground.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1671DAF61A7289D40006067A /* SolarBackground.cpp */; };
 		D0180BE71A36DA2500027448 /* EarthModel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D0180BDF1A36DA2500027448 /* EarthModel.cpp */; };
 		D0180BE81A36DA2500027448 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D0180BE11A36DA2500027448 /* main.cpp */; };
+		D0CB493D1A42C56500D10DEE /* ComplexGamma.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D0CB493C1A42C56500D10DEE /* ComplexGamma.cpp */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		D0180BEE1A36DAAE00027448 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D0180BCD1A36D9F500027448 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D0180BEA1A36DA5B00027448;
-			remoteInfo = StartROOT;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		D0180BD31A36D9F500027448 /* CopyFiles */ = {
@@ -34,14 +26,26 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		1671DAF61A7289D40006067A /* SolarBackground.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SolarBackground.cpp; sourceTree = SOURCE_ROOT; };
+		1671DAF71A7289D40006067A /* SolarBackground.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SolarBackground.h; sourceTree = SOURCE_ROOT; };
 		D0180BD51A36D9F500027448 /* GeoNuSim */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = GeoNuSim; sourceTree = BUILT_PRODUCTS_DIR; };
-		D0180BDF1A36DA2500027448 /* EarthModel.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = EarthModel.cpp; path = ../../EarthModel.cpp; sourceTree = "<group>"; };
-		D0180BE01A36DA2500027448 /* EarthModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EarthModel.h; path = ../../EarthModel.h; sourceTree = "<group>"; };
-		D0180BE11A36DA2500027448 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = ../../main.cpp; sourceTree = "<group>"; };
-		D0180BE21A36DA2500027448 /* ComplexGamma.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ComplexGamma.h; path = ../../ComplexGamma.h; sourceTree = "<group>"; };
-		D0180BE41A36DA2500027448 /* thparameter.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = thparameter.txt; path = ../../thparameter.txt; sourceTree = "<group>"; };
-		D0180BE51A36DA2500027448 /* kparameter.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = kparameter.txt; path = ../../kparameter.txt; sourceTree = "<group>"; };
-		D0180BE61A36DA2500027448 /* urparameter.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = urparameter.txt; path = ../../urparameter.txt; sourceTree = "<group>"; };
+		D0180BDF1A36DA2500027448 /* EarthModel.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = EarthModel.cpp; path = ../EarthModel.cpp; sourceTree = SOURCE_ROOT; };
+		D0180BE01A36DA2500027448 /* EarthModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EarthModel.h; path = ../EarthModel.h; sourceTree = "<group>"; };
+		D0180BE11A36DA2500027448 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = ../main.cpp; sourceTree = SOURCE_ROOT; };
+		D0180BE21A36DA2500027448 /* ComplexGamma.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ComplexGamma.h; path = ../ComplexGamma.h; sourceTree = "<group>"; };
+		D0180BE41A36DA2500027448 /* thparameter.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = thparameter.txt; path = ../thparameter.txt; sourceTree = "<group>"; };
+		D0180BE51A36DA2500027448 /* kparameter.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = kparameter.txt; path = ../kparameter.txt; sourceTree = "<group>"; };
+		D0180BE61A36DA2500027448 /* urparameter.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = urparameter.txt; path = ../urparameter.txt; sourceTree = "<group>"; };
+		D0CB493C1A42C56500D10DEE /* ComplexGamma.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ComplexGamma.cpp; path = ../ComplexGamma.cpp; sourceTree = SOURCE_ROOT; };
+		D0FEDD3B1A4B4FFB0079F8E2 /* AntineutrinoSpectrum_187Re.knt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = AntineutrinoSpectrum_187Re.knt; path = ../AntineutrinoSpectrum_187Re.knt; sourceTree = SOURCE_ROOT; };
+		D0FEDD3C1A4B4FFB0079F8E2 /* AntineutrinoSpectrum_176Lu.knt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = AntineutrinoSpectrum_176Lu.knt; path = ../AntineutrinoSpectrum_176Lu.knt; sourceTree = SOURCE_ROOT; };
+		D0FEDD3D1A4B4FFB0079F8E2 /* AntineutrinoSpectrum_138La.knt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = AntineutrinoSpectrum_138La.knt; path = ../AntineutrinoSpectrum_138La.knt; sourceTree = SOURCE_ROOT; };
+		D0FEDD3E1A4B4FFB0079F8E2 /* AntineutrinoSpectrum_115In.knt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = AntineutrinoSpectrum_115In.knt; path = ../AntineutrinoSpectrum_115In.knt; sourceTree = SOURCE_ROOT; };
+		D0FEDD3F1A4B4FFB0079F8E2 /* AntineutrinoSpectrum_113Cd.knt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = AntineutrinoSpectrum_113Cd.knt; path = ../AntineutrinoSpectrum_113Cd.knt; sourceTree = SOURCE_ROOT; };
+		D0FEDD401A4B4FFB0079F8E2 /* AntineutrinoSpectrum_87Rb.knt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = AntineutrinoSpectrum_87Rb.knt; path = ../AntineutrinoSpectrum_87Rb.knt; sourceTree = SOURCE_ROOT; };
+		D0FEDD411A4B4FFB0079F8E2 /* AntineutrinoSpectrum_40K.knt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = AntineutrinoSpectrum_40K.knt; path = ../AntineutrinoSpectrum_40K.knt; sourceTree = SOURCE_ROOT; };
+		D0FEDD421A4B4FFB0079F8E2 /* AntineutrinoSpectrum_232Th.knt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = AntineutrinoSpectrum_232Th.knt; path = ../AntineutrinoSpectrum_232Th.knt; sourceTree = SOURCE_ROOT; };
+		D0FEDD431A4B4FFB0079F8E2 /* AntineutrinoSpectrum_238U.knt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = AntineutrinoSpectrum_238U.knt; path = ../AntineutrinoSpectrum_238U.knt; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,7 +79,19 @@
 			isa = PBXGroup;
 			children = (
 				D0180BDF1A36DA2500027448 /* EarthModel.cpp */,
+				D0FEDD3B1A4B4FFB0079F8E2 /* AntineutrinoSpectrum_187Re.knt */,
+				D0FEDD3C1A4B4FFB0079F8E2 /* AntineutrinoSpectrum_176Lu.knt */,
+				D0FEDD3D1A4B4FFB0079F8E2 /* AntineutrinoSpectrum_138La.knt */,
+				D0FEDD3E1A4B4FFB0079F8E2 /* AntineutrinoSpectrum_115In.knt */,
+				D0FEDD3F1A4B4FFB0079F8E2 /* AntineutrinoSpectrum_113Cd.knt */,
+				D0FEDD401A4B4FFB0079F8E2 /* AntineutrinoSpectrum_87Rb.knt */,
+				D0FEDD411A4B4FFB0079F8E2 /* AntineutrinoSpectrum_40K.knt */,
+				D0FEDD421A4B4FFB0079F8E2 /* AntineutrinoSpectrum_232Th.knt */,
+				D0FEDD431A4B4FFB0079F8E2 /* AntineutrinoSpectrum_238U.knt */,
 				D0180BE01A36DA2500027448 /* EarthModel.h */,
+				1671DAF61A7289D40006067A /* SolarBackground.cpp */,
+				1671DAF71A7289D40006067A /* SolarBackground.h */,
+				D0CB493C1A42C56500D10DEE /* ComplexGamma.cpp */,
 				D0180BE11A36DA2500027448 /* main.cpp */,
 				D0180BE21A36DA2500027448 /* ComplexGamma.h */,
 				D0180BE41A36DA2500027448 /* thparameter.txt */,
@@ -94,8 +110,8 @@
 			buildConfigurationList = D0180BEB1A36DA5B00027448 /* Build configuration list for PBXLegacyTarget "StartROOT" */;
 			buildPhases = (
 			);
-			buildToolPath = "/Users/usmjonathanmiller/Dropbox/CubeClassifier/env-shell.sh";
-			buildWorkingDirectory = /Users/usmjonathanmiller/Dropbox/Geo_neutrinos;
+			buildToolPath = "/Users/jonathanmillermp/Dropbox/CubeClassifier/env-shell.sh";
+			buildWorkingDirectory = /Users/jonathanmillermp/Dropbox/Geo_neutrinos/GeoNuSim;
 			dependencies = (
 			);
 			name = StartROOT;
@@ -116,7 +132,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				D0180BEF1A36DAAE00027448 /* PBXTargetDependency */,
 			);
 			name = GeoNuSim;
 			productName = GeoNuSim;
@@ -164,19 +179,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				D0180BE81A36DA2500027448 /* main.cpp in Sources */,
+				1671DAF81A7289D40006067A /* SolarBackground.cpp in Sources */,
+				D0CB493D1A42C56500D10DEE /* ComplexGamma.cpp in Sources */,
 				D0180BE71A36DA2500027448 /* EarthModel.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		D0180BEF1A36DAAE00027448 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = D0180BEA1A36DA5B00027448 /* StartROOT */;
-			targetProxy = D0180BEE1A36DAAE00027448 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		D0180BDA1A36D9F500027448 /* Debug */ = {
@@ -256,13 +265,14 @@
 		D0180BDD1A36D9F500027448 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
 					"/Users/usmjonathanmiller/IceCube/i3/ports/root-v5.34.04/include/",
 				);
-				LD_RUNPATH_SEARCH_PATHS = "/Users/usmjonathanmiller/IceCube/i3/ports/root-v5.34.04/lib/";
-				LIBRARY_SEARCH_PATHS = "/Users/usmjonathanmiller/IceCube/i3/ports/root-v5.34.04/lib";
+				LD_RUNPATH_SEARCH_PATHS = $HOME/Downloads/root/lib/;
+				LIBRARY_SEARCH_PATHS = $HOME/Downloads/root/lib;
 				OTHER_LDFLAGS = (
 					"-lCore",
 					"-lGui",
@@ -285,19 +295,21 @@
 					"-ldl",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = $HOME/Downloads/root/include;
 			};
 			name = Debug;
 		};
 		D0180BDE1A36D9F500027448 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
 					"/Users/usmjonathanmiller/IceCube/i3/ports/root-v5.34.04/include/",
 				);
-				LD_RUNPATH_SEARCH_PATHS = "/Users/usmjonathanmiller/IceCube/i3/ports/root-v5.34.04/lib/";
-				LIBRARY_SEARCH_PATHS = "/Users/usmjonathanmiller/IceCube/i3/ports/root-v5.34.04/lib";
+				LD_RUNPATH_SEARCH_PATHS = $HOME/Downloads/root/lib/;
+				LIBRARY_SEARCH_PATHS = $HOME/Downloads/root/lib;
 				OTHER_LDFLAGS = (
 					"-lCore",
 					"-lGui",
@@ -320,6 +332,7 @@
 					"-ldl",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = $HOME/Downloads/root/include;
 			};
 			name = Release;
 		};
@@ -367,6 +380,7 @@
 				D0180BDE1A36D9F500027448 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D0180BEB1A36DA5B00027448 /* Build configuration list for PBXLegacyTarget "StartROOT" */ = {
 			isa = XCConfigurationList;
@@ -375,6 +389,7 @@
 				D0180BED1A36DA5B00027448 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
