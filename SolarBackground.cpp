@@ -7,6 +7,7 @@
 //
 
 #include "SolarBackground.h"
+//modification
 
 void SolarBackground::ReadInputFile(){
     
