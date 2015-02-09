@@ -89,7 +89,7 @@ double* SolarBackground::GetElectron(){
     double x;
     double y;
     
-    solarpdf->GetRandom2(&x, &y);
+    solarpdf->GetRandom2(x, y);
     
     res={x,y};
     
